@@ -165,7 +165,7 @@ color: white;
     background-color:  rgba(57,107,49,1);
 
 }
-@media (min-width:380px) and (max-width:980px){
+@media (max-width:780px){
     .logo_aguila{
         display: none;
     }
@@ -251,7 +251,7 @@ color: white;
 .certificados img{
     width: 100%;
 }
-@media (min-width:380px)and (max-width:980px){
+@media (max-width:780px){
     .contenido_grid{
         width: 100%;
         height: 100%;
