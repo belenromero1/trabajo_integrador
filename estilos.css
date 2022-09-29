@@ -123,6 +123,9 @@
         border: none;
         margin-top: 2rem;
     }
+    .boton img{
+        width:20px;
+    }
 .sub_footer input{
     font-size: 1rem;
     width: 35vw;
@@ -178,7 +181,7 @@ color: white;
     flex-direction: column;
 }
 .menu a {
-    color: white;
+    color: rgb(14, 14, 14);
 }
 .menu:hover a{
     color: rgb(3, 3, 3);
@@ -216,7 +219,7 @@ color: white;
     "footer";
 }
 
-.nav_grid ul{
+.nav ul{
     grid-area: nav;
     width: 100vw;
 }
@@ -225,6 +228,9 @@ color: white;
     background: rgb(57,107,49);
     background: linear-gradient(0deg, rgba(57,107,49,1) 0%, rgba(34,68,26,1) 100%);
     grid-area: contenido;
+}
+.logo_aguila img{
+    width: 100px;
 }
 .footer_grid{
     background-color: rgba(57,107,49,1);
@@ -256,6 +262,20 @@ color: white;
     width: 100%;
 }
 @media (max-width:780px){
+    .menu{
+        background-image: url(./logo.jpg);
+        background-size:cover;
+        background-position: center center;
+    }
+.nav{
+    height: 35vh;
+}
+.nav ul{
+    padding-top: 6rem;
+    padding-left: 14rem;
+}
+
+}
     .contenido_grid{
         width: 100%;
         height: 100%;
@@ -265,8 +285,10 @@ color: white;
         padding: 10px 10px;
         font-size: 15px;
     }
-    
-}
+    .nav_grid ul{
+        height: 35vh;
+    }
+
 /*  Contacto */
 .contacto{
     text-align: start;
@@ -315,7 +337,19 @@ textarea{
 .item p{
     margin: 1.2rem;
 }
+.item img{
+    width: 15px;
+}
 @media(max-width:780px) {
+    .nav{
+        height: 35vh;
+    }
+    .menu{
+        padding-top: 6rem;
+        padding-left: 14rem;
+    }
+    
+
     .contacto{
         text-align: center;
         margin: 1rem 
