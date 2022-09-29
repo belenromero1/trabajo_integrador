@@ -178,7 +178,7 @@ color: white;
     background-color:  rgba(57,107,49,1);
 
 }
-@media (max-width:868px){
+@media (min-width:580px) and (max-width:980px){
 .footer_registro{
     display: flex;
     flex-direction: column;
@@ -259,7 +259,7 @@ color: white;
 .certificados img{
     width: 90%;
 }
-@media(max-width:868px){
+@media (min-width:580px)and (max-width:980px){
     .contenido_grid{
         width: 100%;
     }
