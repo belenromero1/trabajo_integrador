@@ -62,6 +62,9 @@
 .registro_titulo{
     text-align: center;
 }
+.logo_aguila{
+    width: 110px;
+}
 .formulario{
     display: flex;
     flex-direction: column;
