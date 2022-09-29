@@ -267,3 +267,58 @@ color: white;
     }
     
 }
+/*  Contacto */
+
+.contacto{
+    text-align: start;
+    margin-left: 10rem;
+}
+.contenedor_contacto{
+    display: flex;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color:rgba(57,107,49,1) ;
+    border-radius: 10px;
+}
+
+.form input{
+    height: 30px;
+    border-radius:5px;
+    border: 1px;
+}
+textarea{
+    border-radius: 5px;
+}
+.datos_contacto{
+    text-align: start;
+    margin: 3rem;
+}
+.item{
+    display: flex;
+    gap: 1rem;
+}
+.item p{
+    margin: 1.2rem;
+}
+@media(max-width:780px) {
+    .contacto{
+        text-align: center;
+        margin: 1rem 
+    }
+    .contenedor_contacto{
+        display: flex;
+        flex-direction:column ;
+    }
+}
+@media(min-width:1080px) {
+    .form{
+        width: 100vw;
+        margin-left: 10rem;
+        margin-bottom: 4rem;
+    }
+}
