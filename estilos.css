@@ -5,7 +5,7 @@
     width: 100%;
     font-family:'Red Hat Display', sans-serif;
 }
-.nav{
+.nav_index{
     flex-direction: column-reverse;
 }
 .navbar{
