@@ -1,0 +1,271 @@
+/* BOOTSTRAP */
+.body{
+    background: rgb(57,107,49);
+    background: linear-gradient(0deg, rgba(57,107,49,1) 0%, rgba(34,68,26,1) 100%);
+    width: 100%;
+    font-family:'Red Hat Display', sans-serif;
+}
+.nav{
+    flex-direction: column-reverse;
+}
+.navbar{
+    background-color: white;
+}
+.links_header {
+    display:flex;
+    flex-direction:row;
+    justify-content: end;
+    gap: 10px;
+    list-style: none;
+    
+}
+.links_header li a{
+    text-decoration: none;
+    color:white;
+}
+.border:hover{
+    background-color: rgb(192, 184, 184);
+}
+.boton_comprar{
+    border: solid 1px;
+    border-radius: 5px;
+    height: 40px;
+}
+.footer{
+    background-color:  rgba(57,107,49,1);
+}
+.titulo_contenido{
+    text-align: center;
+    color: white;
+}
+
+
+/* Registro FLEX,HTML.CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Red Hat Display', sans-serif;
+    text-decoration: none;
+}
+
+
+.body_registro{
+    width: 100vw;
+    height: 100vh;
+}
+.contenedor_registro{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+    list-style: none;
+    background-color:white;
+    padding-bottom: 1rem;
+}
+.menu a{
+    color: black;
+}
+.registro_titulo{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.contenedor_input_general{
+    background-color: rgba(57,107,49,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 80vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 6rem;
+}
+.contenedor_input_general input{
+    padding: 10px;
+    width: 60vw;
+    border:none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+    
+}
+
+.submit input{
+    border:solid 1px  rgb(27, 54, 23);
+    background-color:  rgb(27, 54, 23);
+    font-size: 1rem ;
+    margin: 1rem;
+    color: white;
+
+}
+.submit input:hover{
+    transition: 0.2s all;
+    background-color: rgb(168, 163, 163);
+    border: none;
+}
+
+.checkbox input{
+    width: 5vw;
+    margin-top: 1rem;
+    
+}
+.botones_footer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    }
+.boton{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2rem;
+    }
+.sub_footer input{
+    font-size: 1rem;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin:40px 10px  ;
+}
+.footer_registro{
+    display: flex;
+    justify-content: center;
+}
+.sub_footer p{
+    color: white;
+    margin-top: 2.5rem;
+    padding: 10px;
+    
+}
+.sub_footer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+.boton_suscribirse{
+    margin: 2rem;
+    padding: 5px;
+    
+}
+.boton_suscribirse input{
+padding: 8px 10px;
+border-radius: 8px;
+border: solid 1px white;
+font-size: 1rem;
+background-color:rgba(57,107,49,1); 
+color: white;
+}
+.footer_conteiner{
+    background-color:  rgba(57,107,49,1);
+
+}
+@media (max-width:868px){
+.footer_registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_conteiner{
+    width: 100%;
+}
+.sub_footer{
+    flex-direction: column;
+    align-items: center;
+}
+.sub_footer input{
+    width: 70vw;
+    margin: 0%;
+}
+.boton_suscribirse{
+    flex-direction: column;
+    align-items: center;
+    margin:2.5rem;
+}
+}
+
+/* Nosotros -GRID,CSS,HTML */
+.grilla{
+    height: 100vh;
+    width: 100vw;
+    font-family:'Red Hat Display', sans-serif;
+    display: grid;
+    grid-template-rows:1fr 3fr 1fr;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    "nav"
+    "contenido"
+    "footer";
+}
+
+.nav_grid ul{
+    grid-area: nav;
+    margin: 1rem;
+    background-color: white;
+}
+
+.contenido_grid{
+    background: rgb(57,107,49);
+    background: linear-gradient(0deg, rgba(57,107,49,1) 0%, rgba(34,68,26,1) 100%);
+    height: 100%;
+    grid-area: contenido;
+}
+.footer_grid{
+    background-color: rgba(57,107,49,1);
+    grid-area: footer;
+
+}
+
+.titulo_nosotros{
+    color: white;
+    margin: 2rem;
+    text-align: center;
+}
+
+.texto_nosotros{
+    margin: 2rem 4rem;
+    padding: 1rem 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white;
+}
+.titulo_certificados{
+    margin: 2rem;
+}
+.certificados{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.certificados img{
+    width: 90%;
+}
+@media(max-width:868px){
+    .contenido_grid{
+        width: 100%;
+    }
+    .texto_nosotros{
+        margin: 1rem 1rem;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+}
