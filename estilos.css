@@ -153,6 +153,10 @@
     padding: 5px;
     
 }
+.boton_suscribirse input:hover{
+    background-color: white;
+    color: black;
+}
 .boton_suscribirse input{
 padding: 8px 10px;
 border-radius: 8px;
