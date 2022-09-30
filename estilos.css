@@ -321,7 +321,7 @@ textarea{
         flex-direction:column ;
     }
 }
-@media(min-width:1080px) {
+@media(min-width:780px) {
     .form{
         width: 100vw;
         margin-left: 10rem;
